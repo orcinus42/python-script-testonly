@@ -1,0 +1,59 @@
+17922:C 05 May 11:24:39.321 # Warning: no config file specified, using the default config. In order to specify a config file use ./redis-server /path/to/redis.conf
+17922:M 05 May 11:24:39.322 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+17922:M 05 May 11:24:39.322 # Redis can't set maximum open files to 10032 because of OS error: Operation not permitted.
+17922:M 05 May 11:24:39.322 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.0 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 17922
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+17922:M 05 May 11:24:39.325 # Server started, Redis version 3.0.0
+17922:M 05 May 11:24:39.325 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+17922:M 05 May 11:24:39.325 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+17922:M 05 May 11:24:39.325 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+17922:M 05 May 11:24:39.325 * DB loaded from disk: 0.000 seconds
+17922:M 05 May 11:24:39.325 * The server is now ready to accept connections on port 6379
+17922:M 05 May 11:45:37.766 * DB saved on disk
+17922:M 05 May 15:23:54.484 * 1 changes in 3600 seconds. Saving...
+17922:M 05 May 15:23:54.654 * Background saving started by pid 24216
+24216:C 05 May 15:23:54.811 * DB saved on disk
+24216:C 05 May 15:23:54.812 * RDB: 6 MB of memory used by copy-on-write
+17922:M 05 May 15:23:54.900 * Background saving terminated with success
+17922:M 05 May 16:23:55.025 * 1 changes in 3600 seconds. Saving...
+17922:M 05 May 16:23:55.028 * Background saving started by pid 24426
+24426:C 05 May 16:23:55.067 * DB saved on disk
+24426:C 05 May 16:23:55.068 * RDB: 6 MB of memory used by copy-on-write
+17922:M 05 May 16:23:55.129 * Background saving terminated with success
+17922:M 05 May 17:48:51.785 * 1 changes in 3600 seconds. Saving...
+17922:M 05 May 17:48:51.787 * Background saving started by pid 24935
+24935:C 05 May 17:48:51.880 * DB saved on disk
+24935:C 05 May 17:48:51.881 * RDB: 6 MB of memory used by copy-on-write
+17922:M 05 May 17:48:51.889 * Background saving terminated with success
+17922:M 05 May 18:48:52.012 * 1 changes in 3600 seconds. Saving...
+17922:M 05 May 18:48:52.054 * Background saving started by pid 25884
+25884:C 05 May 18:48:52.177 * DB saved on disk
+25884:C 05 May 18:48:52.178 * RDB: 6 MB of memory used by copy-on-write
+17922:M 05 May 18:48:52.256 * Background saving terminated with success
+17922:M 05 May 19:48:53.085 * 1 changes in 3600 seconds. Saving...
+17922:M 05 May 19:48:53.112 * Background saving started by pid 26524
+26524:C 05 May 19:48:53.187 * DB saved on disk
+26524:C 05 May 19:48:53.188 * RDB: 6 MB of memory used by copy-on-write
+17922:M 05 May 19:48:53.213 * Background saving terminated with success
+17922:signal-handler (1431743747) Received SIGTERM scheduling shutdown...
+17922:M 16 May 10:35:48.041 # User requested shutdown...
+17922:M 16 May 10:35:48.234 * Saving the final RDB snapshot before exiting.
+17922:M 16 May 10:35:48.548 * DB saved on disk
+17922:M 16 May 10:35:48.548 # Redis is now ready to exit, bye bye...
